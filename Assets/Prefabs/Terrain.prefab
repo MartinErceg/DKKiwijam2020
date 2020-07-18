@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71315255512417413}
   m_LocalRotation: {x: -0, y: -0, z: 0.082638845, w: 0.9965796}
-  m_LocalPosition: {x: 1.023, y: 1.559, z: -1.5335784}
-  m_LocalScale: {x: 11.895868, y: 3.0599, z: 11.093466}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 500, y: 150, z: 500}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDead: 0
   mesh: {fileID: 1766297072191457960}
-  velocity: 5
+  velocity: 150
   gm: {fileID: 0}
   collider: {fileID: -8591747047631757713}
 --- !u!65 &-8591747047631757713
@@ -109,5 +109,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+  m_Size: {x: 1.0000001, y: 1.0000001, z: 1}
   m_Center: {x: 0, y: 0, z: 0}

@@ -31,16 +31,4 @@ public class TerrainManager : MonoBehaviour
         
     }
 
-    /*void Spawn()
-    {
-        float terrainHeight = TerrainPool[0].GetComponent<Terrain>().collider.size.y;
-        float terrainWidth = TerrainPool[0].GetComponent<Terrain>().collider.size.y;
-
-        float splitLengthH = terrainHeight * gm.terrainCount;
-        float splitLengthW = terrainWidth * gm.terrainCount;
-
-        Vector3 spawnerPos = new Vector3(0, terrainHeight, terrainWidth);
-            Vector3 despawnerPos = new Vector3(0, -co)
-    }*/
-
 }

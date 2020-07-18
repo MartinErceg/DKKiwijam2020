@@ -35,16 +35,12 @@ public class Terrain : MonoBehaviour
 
     void CheckCameraPosition()
     {
-        float colliderSize = -collider.size.z;
+        float colliderSize = collider.bounds.size.z;
+        print("size: " + collider.bounds.size.z);
         if ((this.transform.position.z + colliderSize) < gm.camera.transform.position.z)
         {
             isDead = true;
         }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        
     }
 
 }
