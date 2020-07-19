@@ -5,46 +5,60 @@ using UnityEngine;
 
 public class TerrainManager : MonoBehaviour
 {
-    public float spawnDistance;
+    public float spawnDistance; 
+    
+    public GameObject[] TerrainObjects;
+    public int terrainInstances;
 
-    public GameObject[] TerrainPool;
-    public GameObject terrain;
     public GameManager gm;
 
-    private Vector3 lastSpawn;
+    private Vector3 lastSpawn;   
+    
+    [HideInInspector]
+    public GameObject[] TerrainPool;
 
     void Start()
     {
-        TerrainPool = new GameObject[gm.terrainCount];
+        TerrainPool = new GameObject[terrainInstances * TerrainObjects.Length];       
+        
+        int j = 0;
+        int terrainIndex = 0;
+
+        // Instantiate       
+        foreach(GameObject t in TerrainObjects)
+        {           
+            for(int i = 0; i < terrainInstances; i++)
+            {
+                TerrainPool[j] = Instantiate(TerrainObjects[terrainIndex], new Vector3(0, 0, -1000), gm.b_spawner.transform.rotation);
+                TerrainPool[j].gameObject.SetActive(false);
+                j++;
+            }
+            terrainIndex++;
+        }
 
         Vector3 spawnPos = new Vector3(0,-75,0);
+        lastSpawn = spawnPos;
 
-        for(int i = 0; i < gm.terrainCount; i++)
+        SpawnNewTerrain();
+        SpawnNewTerrain();
+        SpawnNewTerrain();
+        /*
+        // Spawn
+        for(int i = 0; i < gm.terrainSpawnCount; i++)
         {
-            // TODO: Slecet terrain at random
+            int spawnIndex = Random.Range(0, TerrainPool.Length-1);
+            print(spawnIndex);
 
-            TerrainPool[i] = Instantiate(terrain, spawnPos, gm.b_spawner.transform.rotation);
-
-            Bounds terrainBounds = TerrainPool[i].GetComponent<Collider>().bounds;
-
-            // spawnPos.x = player.x;
+            GameObject go = TerrainPool[spawnIndex];
+            
+            go.transform.position = spawnPos;
+           
+            Bounds terrainBounds = go.GetComponent<Collider>().bounds;
+   
             spawnPos.y -= terrainBounds.size.y;
             spawnPos.z += terrainBounds.size.z;
 
-            print("terrainbounds: " + terrainBounds);
-
-            /*Vector3 lengthPos = gm.b_goal.GetComponent<Transform>().localPosition - gm.b_spawner.GetComponent<Transform>().localPosition;
-            Vector3 splitLength = lengthPos / gm.terrainCount;
-            */
-            //int newI = i + 1;            
-
-            //float newY = //-(splitLength.y * newI) + gm.b_goal.transform.position.y;
-            //float newZ = //-(splitLength.z * newI) + gm.b_goal.transform.position.z;            
-
-            //Vector3 calculatedPos = new Vector3(0, newY, newZ);                       
-        }
-
-        lastSpawn = spawnPos;
+        }*/
     }
 
     private void Update()
@@ -54,30 +68,37 @@ public class TerrainManager : MonoBehaviour
         {
             bool success = SpawnNewTerrain();
 
-            //if (!success)
-            //    print("FAILED TO FIND TERRAIN");
+            if(!success)
+                print("FAILED TO FIND TERRAIN");
         }
     }
-
+    
     private bool SpawnNewTerrain()
     {
-        for (int i = 0; i < gm.terrainCount; i++)
+        for(int i = 0; i < TerrainPool.Length; i++)
         {
-            Terrain t = TerrainPool[i].gameObject.GetComponent<Terrain>();
-
-            if(t.isDead)
+            if(!TerrainPool[i].gameObject.activeSelf)
             {
-                lastSpawn = new Vector3(gm.camera.transform.position.x, lastSpawn.y, lastSpawn.z);
+                TerrainPool[i].gameObject.SetActive(true);
 
-                t.transform.position = lastSpawn;
-                t.isDead = false;
-                
-                Bounds terrainBounds = t.GetComponent<Collider>().bounds;
+                /*Terrain terrainObj = TerrainPool[i].GetComponent<Terrain>();
 
-                lastSpawn.y -= terrainBounds.size.y;
+                float offsetY = terrainObj.endSpawn.transform.position.y - terrainObj.startSpawn.transform.position.y;
+                float offsetZ = terrainObj.endSpawn.transform.position.z - terrainObj.startSpawn.transform.position.z;
+
+                //Bounds terrainBounds = TerrainPool[i].GetComponent<Collider>().bounds;             
+                TerrainPool[i].transform.position = new Vector3(gm.camera.transform.position.x, lastSpawn.y + (offsetY), lastSpawn.z + (offsetZ));
+
+                lastSpawn.y = terrainObj.transform.position.y;
+                lastSpawn.z = terrainObj.transform.position.z;*/
+
+                Terrain terrainObj = TerrainPool[i].GetComponent<Terrain>();
+                TerrainPool[i].transform.position = new Vector3(gm.camera.transform.position.x, lastSpawn.y, lastSpawn.z);
+
+                Bounds terrainBounds = TerrainPool[i].GetComponent<Collider>().bounds;             
+
+                lastSpawn.y -= Mathf.Abs(terrainBounds.size.y);
                 lastSpawn.z += terrainBounds.size.z;
-
-                print("*************************** SPAWN");
 
                 return true;
             }

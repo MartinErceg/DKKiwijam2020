@@ -12,6 +12,8 @@ public class ApeControl : MonoBehaviour
     public float acceleration;
     public float minSpeed;
     public float maxSpeed;
+   
+    public float sideSpeed;
 
     public float gravity;
     public float maxGravity = 4;
@@ -118,7 +120,7 @@ public class ApeControl : MonoBehaviour
                 }
                 else if(groundDif < charHeight)
                 {
-                    print("*************** Climbing");
+                    //print("*************** Climbing");
                     
                     if(speed > minSpeed)
                         speed -= acceleration;
@@ -179,11 +181,11 @@ public class ApeControl : MonoBehaviour
 
         if(Input.GetKey("left"))
         {
-            velocityX = -0.2f;
+            velocityX = -sideSpeed;
         }
         else if(Input.GetKey("right"))
         {
-            velocityX = 0.2f;
+            velocityX = sideSpeed;
         }
 
         // Final positioning
