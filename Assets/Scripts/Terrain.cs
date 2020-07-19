@@ -49,11 +49,9 @@ public class Terrain : MonoBehaviour
         {
             int index = Random.Range (0, obstacles.Length);
             GameObject newobj = Instantiate(obstacles[index], transform.position, Quaternion.identity);
-            Vector3 pos = center + new Vector3(Random.Range(-mesh.bounds.size.x, mesh.bounds.size.x), -75.0f, Random.Range(-mesh.bounds.size.x, mesh.bounds.size.z));
+            Vector3 pos = new Vector3(Random.Range(1, 500), 0, Random.Range(1, 500));
             newobj.transform.parent = transform;
-            newobj.transform.localPosition = pos;
-            
-            
+            newobj.transform.position = pos; 
         }
     }
 
