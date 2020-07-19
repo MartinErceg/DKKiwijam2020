@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ButtonHandler.cs" />
+    <Compile Include="Assets\Martins Assets\AnimationController.cs" />
     <Compile Include="Assets\Scripts\ApeControl.cs" />
     <Compile Include="Assets\Scripts\ButtonFunctions.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />

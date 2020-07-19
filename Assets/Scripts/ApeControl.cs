@@ -36,10 +36,14 @@ public class ApeControl : MonoBehaviour
 
     private const float stepHeight = 0.2f;
 
-    // Start is called before the first frame update
-    void Start()
+
+    public Animator anim;
+    private AudioSource AudioS;
+
+    private void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        AudioS = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -146,6 +150,7 @@ public class ApeControl : MonoBehaviour
             {
                 falling = true;
                 velocityY = jumpImpulse;
+                print("jumping");
             }
 
         }
@@ -170,9 +175,11 @@ public class ApeControl : MonoBehaviour
             }
 
             // Slam
-            if(Input.GetKeyDown("space"))
+            if(Input.GetKeyDown("down"))
             {
                 velocityY += slamImpulse;
+                anim.SetBool("Slam", true);
+                AudioS.Stop();
             }
         }
 
@@ -182,10 +189,46 @@ public class ApeControl : MonoBehaviour
         if(Input.GetKey("left"))
         {
             velocityX = -sideSpeed;
+            anim.SetBool("Left", true);
         }
         else if(Input.GetKey("right"))
         {
             velocityX = sideSpeed;
+            anim.SetBool("Right", true);
+        }
+        else if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("Left", true);
+            anim.SetBool("Jump", true);
+            AudioS.Stop();
+        }
+        else if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("Right", true);
+            anim.SetBool("Jump", true);
+            AudioS.Stop();
+        }
+        else if(Input.GetKey(KeyCode.Space))
+        {
+            anim.SetBool("Jump", true);
+            AudioS.Stop();
+        }
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            anim.SetBool("Slam", true);
+            AudioS.Stop();
+        }
+        else
+        {
+            if (!AudioS.isPlaying)
+            {
+                AudioS.Play();
+            }
+            anim.SetBool("Idle", true);
+            anim.SetBool("Slam", false);
+            anim.SetBool("Left", false);
+            anim.SetBool("Right", false);
+            anim.SetBool("Jump", false);
         }
 
         // Final positioning
