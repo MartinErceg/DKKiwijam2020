@@ -21,6 +21,7 @@ public class Terrain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SpawnObstacles();
         gm = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
@@ -29,7 +30,6 @@ public class Terrain : MonoBehaviour
     {
         Move();
         CheckCameraPosition();
-        SpawnObstacles();
         /*if(isDead)
         {
             // TODO, back in pool, need other code to respawn terrain
