@@ -21,16 +21,17 @@ public class Terrain : MonoBehaviour
     {
         Move();
         CheckCameraPosition();
-        if (isDead)
+        /*if(isDead)
         {
+            // TODO, back in pool, need other code to respawn terrain
             this.transform.position = gm.b_spawner.transform.position;
             isDead = false;
-        }
+        }*/
     }
 
     void Move()
     {
-        this.transform.localPosition = Vector3.MoveTowards(transform.position, gm.b_goal.transform.position, velocity * Time.deltaTime);
+        //this.transform.localPosition = Vector3.MoveTowards(transform.position, gm.b_goal.transform.position, velocity * Time.deltaTime);
     }
 
     void CheckCameraPosition()

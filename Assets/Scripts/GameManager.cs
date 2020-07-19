@@ -5,8 +5,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public BoxCollider b_spawner;
-    public BoxCollider b_goal;
-    public Player player;
+    public BoxCollider b_goal;    
     public Camera camera;
     public int terrainCount;
+
+    public Vector3 lastSpawn;
+
 }
