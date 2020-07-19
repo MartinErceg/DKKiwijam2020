@@ -909,6 +909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a42796ea45f1441bd2eafa3b93576c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnDistance: 0
   TerrainPool: []
   terrain: {fileID: 71315255512417413, guid: 88355d633e726524bb1a3eb4a1431dd3, type: 3}
   gm: {fileID: 971983795}
@@ -2447,9 +2448,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   b_spawner: {fileID: 1281610614}
   b_goal: {fileID: 1091810262}
-  player: {fileID: 154019325}
   camera: {fileID: 963194227}
   terrainCount: 5
+  lastSpawn: {x: 0, y: 0, z: 0}
 --- !u!1 &995004717
 GameObject:
   m_ObjectHideFlags: 0

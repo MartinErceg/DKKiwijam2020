@@ -98,6 +98,14 @@ MonoBehaviour:
   velocity: 150
   gm: {fileID: 0}
   collider: {fileID: -8591747047631757713}
+  obstacles:
+  - {fileID: 1506294674978578282, guid: b636dc528cbd1fe49837e1bf79cb6078, type: 3}
+  - {fileID: 2655064671906602879, guid: 78745b9da508473428da674639de2e2d, type: 3}
+  - {fileID: 486428612917706364, guid: d9a35f49fe107994491412725c90cfd2, type: 3}
+  - {fileID: 5664065738249055705, guid: ba7ff09782d8ca14c922d813490a17dd, type: 3}
+  maxSpawnedObstacles: 20
+  center: {x: 0, y: 0, z: 0}
+  size: {x: 0, y: 0, z: 0}
 --- !u!65 &-8591747047631757713
 BoxCollider:
   m_ObjectHideFlags: 0

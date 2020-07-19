@@ -10,6 +10,14 @@ public class Terrain : MonoBehaviour
     public GameManager gm;
     public BoxCollider collider;
 
+    public GameObject[] obstacles;
+
+
+    public int maxSpawnedObstacles;
+
+    public Vector3 center;
+    public Vector3 size;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +29,7 @@ public class Terrain : MonoBehaviour
     {
         Move();
         CheckCameraPosition();
+        SpawnObstacles();
         /*if(isDead)
         {
             // TODO, back in pool, need other code to respawn terrain
@@ -32,6 +41,20 @@ public class Terrain : MonoBehaviour
     void Move()
     {
         //this.transform.localPosition = Vector3.MoveTowards(transform.position, gm.b_goal.transform.position, velocity * Time.deltaTime);
+    }
+
+    void SpawnObstacles()
+    {
+        for(int i = 0; i < maxSpawnedObstacles; i++)
+        {
+            int index = Random.Range (0, obstacles.Length);
+            GameObject newobj = Instantiate(obstacles[index], transform.position, Quaternion.identity);
+            Vector3 pos = center + new Vector3(Random.Range(-mesh.bounds.size.x, mesh.bounds.size.x), -75.0f, Random.Range(-mesh.bounds.size.x, mesh.bounds.size.z));
+            newobj.transform.parent = transform;
+            newobj.transform.localPosition = pos;
+            
+            
+        }
     }
 
     void CheckCameraPosition()
