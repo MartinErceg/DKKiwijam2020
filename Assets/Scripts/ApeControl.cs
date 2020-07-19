@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Jobs.LowLevel.Unsafe;
-using UnityEditor;
-using UnityEditor.EventSystems;
-using UnityEngine;
-using UnityEngine.EventSystems;
+﻿using UnityEngine;
 
 public class ApeControl : MonoBehaviour
 {
@@ -179,7 +172,6 @@ public class ApeControl : MonoBehaviour
             {
                 velocityY += slamImpulse;
                 anim.SetBool("Slam", true);
-                AudioS.Stop();
             }
         }
 
@@ -200,23 +192,19 @@ public class ApeControl : MonoBehaviour
         {
             anim.SetBool("Left", true);
             anim.SetBool("Jump", true);
-            AudioS.Stop();
         }
         else if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.Space))
         {
             anim.SetBool("Right", true);
             anim.SetBool("Jump", true);
-            AudioS.Stop();
         }
         else if(Input.GetKey(KeyCode.Space))
         {
             anim.SetBool("Jump", true);
-            AudioS.Stop();
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
             anim.SetBool("Slam", true);
-            AudioS.Stop();
         }
         else
         {

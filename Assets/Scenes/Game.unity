@@ -979,10 +979,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89c1d94bbc3822441bd152cc2f741f21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceleration: 0.05
-  minSpeed: 0.2
-  maxSpeed: 0.4
-  sideSpeed: 0.05
+  acceleration: 0.2
+  minSpeed: 0.5
+  maxSpeed: 0.8
+  sideSpeed: 0.1
   gravity: 0.35
   maxGravity: 10
   jumpImpulse: 0.15
@@ -1043,20 +1043,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &207396065
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207396058}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &260933171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,7 +1074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnDistance: 500
   TerrainObjects:
-  - {fileID: 6588116259577571705, guid: 614c1620ebdd39043a301f7c73b869bb, type: 3}
+  - {fileID: 3103649358437210480, guid: 2e513fa7e5b060c429436ed198a31eaf, type: 3}
   - {fileID: 3103649358437210480, guid: 2e513fa7e5b060c429436ed198a31eaf, type: 3}
   terrainInstances: 2
   gm: {fileID: 971983795}
