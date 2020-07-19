@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 0ee14085523f3704389cbc48fab6c588
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5437131002843998474
+    second: EdgyApeSpritesheet_0
+  - first:
+      213: -5372658114071506631
+    second: EdgyApeSpritesheet_1
+  - first:
+      213: -2400018678283284409
+    second: EdgyApeSpritesheet_2
+  - first:
+      213: -2092319554094003471
+    second: EdgyApeSpritesheet_3
+  - first:
+      213: -2161912342979412818
+    second: EdgyApeSpritesheet_4
+  - first:
+      213: 8960107910692233729
+    second: EdgyApeSpritesheet_5
+  - first:
+      213: 4005625298217491212
+    second: EdgyApeSpritesheet_6
+  - first:
+      213: 6383735778426789027
+    second: EdgyApeSpritesheet_7
+  - first:
+      213: 2906977486361990555
+    second: EdgyApeSpritesheet_8
+  - first:
+      213: -6007217512675684652
+    second: EdgyApeSpritesheet_9
+  - first:
+      213: 1031197916834434305
+    second: EdgyApeSpritesheet_10
+  - first:
+      213: 2404798388497126822
+    second: EdgyApeSpritesheet_11
+  - first:
+      213: 5154437960134034640
+    second: EdgyApeSpritesheet_12
+  - first:
+      213: 151621370295880572
+    second: EdgyApeSpritesheet_13
+  - first:
+      213: 4731835236927768747
+    second: EdgyApeSpritesheet_14
+  - first:
+      213: 4826196470834616103
+    second: EdgyApeSpritesheet_15
+  - first:
+      213: -3333322566869558790
+    second: EdgyApeSpritesheet_16
+  - first:
+      213: -8233285800597750103
+    second: EdgyApeSpritesheet_17
+  - first:
+      213: 5459553253637014333
+    second: EdgyApeSpritesheet_18
+  - first:
+      213: -8934780662570878665
+    second: EdgyApeSpritesheet_19
+  - first:
+      213: 6754104570038845110
+    second: EdgyApeSpritesheet_20
+  - first:
+      213: 8885393932215550402
+    second: EdgyApeSpritesheet_21
+  - first:
+      213: 588520276479604198
+    second: EdgyApeSpritesheet_22
+  - first:
+      213: -6084352347522609388
+    second: EdgyApeSpritesheet_23
+  - first:
+      213: -1234633194825906774
+    second: EdgyApeSpritesheet_24
+  - first:
+      213: -5628325949087315745
+    second: EdgyApeSpritesheet_25
+  - first:
+      213: -5246708627108074108
+    second: EdgyApeSpritesheet_26
+  - first:
+      213: 7545845109060212542
+    second: EdgyApeSpritesheet_27
+  - first:
+      213: -2927240699355840581
+    second: EdgyApeSpritesheet_28
+  - first:
+      213: -8742396237506806366
+    second: EdgyApeSpritesheet_29
+  - first:
+      213: 8735458074250236136
+    second: EdgyApeSpritesheet_30
+  - first:
+      213: -2905137025941186492
+    second: EdgyApeSpritesheet_31
+  - first:
+      213: -2646443010673922216
+    second: EdgyApeSpritesheet_32
+  - first:
+      213: -7946159177583275473
+    second: EdgyApeSpritesheet_33
+  - first:
+      213: -1194774601624449366
+    second: EdgyApeSpritesheet_34
+  - first:
+      213: -4488528518916516018
+    second: EdgyApeSpritesheet_35
+  - first:
+      213: 8566307072782641278
+    second: EdgyApeSpritesheet_36
+  - first:
+      213: 5422185214829006860
+    second: EdgyApeSpritesheet_37
+  - first:
+      213: 9030036113527991995
+    second: EdgyApeSpritesheet_38
+  - first:
+      213: 6092241033308469796
+    second: EdgyApeSpritesheet_39
+  - first:
+      213: 4482319495156775929
+    second: EdgyApeSpritesheet_40
+  - first:
+      213: 3642525462852439419
+    second: EdgyApeSpritesheet_41
+  - first:
+      213: -854841928629439167
+    second: EdgyApeSpritesheet_42
+  - first:
+      213: 9147838299304041384
+    second: EdgyApeSpritesheet_43
+  - first:
+      213: 561762128313535430
+    second: EdgyApeSpritesheet_44
+  - first:
+      213: 1838981733521821744
+    second: EdgyApeSpritesheet_45
+  - first:
+      213: 6342835938814956220
+    second: EdgyApeSpritesheet_46
+  - first:
+      213: 4996916833123539444
+    second: EdgyApeSpritesheet_47
+  - first:
+      213: -6419250555768677375
+    second: EdgyApeSpritesheet_48
+  - first:
+      213: -4266477295236372831
+    second: EdgyApeSpritesheet_49
+  - first:
+      213: -8258427339024383086
+    second: EdgyApeSpritesheet_50
+  - first:
+      213: 7513894187045833099
+    second: EdgyApeSpritesheet_51
+  - first:
+      213: -2979115728865936452
+    second: EdgyApeSpritesheet_52
+  - first:
+      213: -6912688371569269968
+    second: EdgyApeSpritesheet_53
+  - first:
+      213: -4267961678490647973
+    second: EdgyApeSpritesheet_54
+  - first:
+      213: 4931128468339392534
+    second: EdgyApeSpritesheet_55
+  - first:
+      213: -2458416740963756614
+    second: EdgyApeSpritesheet_56
+  - first:
+      213: -3999753235600565546
+    second: EdgyApeSpritesheet_57
+  - first:
+      213: 8784356554744511685
+    second: EdgyApeSpritesheet_58
+  - first:
+      213: 492380456914349734
+    second: EdgyApeSpritesheet_59
+  - first:
+      213: -4794724038072172555
+    second: EdgyApeSpritesheet_60
+  - first:
+      213: -816196821661349882
+    second: EdgyApeSpritesheet_61
+  - first:
+      213: 1198033238829737481
+    second: EdgyApeSpritesheet_62
+  - first:
+      213: -1848193371188002641
+    second: EdgyApeSpritesheet_63
+  - first:
+      213: -8943781316690034659
+    second: EdgyApeSpritesheet_64
+  - first:
+      213: -8339557904742138498
+    second: EdgyApeSpritesheet_65
+  - first:
+      213: 2239935938229368607
+    second: EdgyApeSpritesheet_66
+  - first:
+      213: 6699338443320612864
+    second: EdgyApeSpritesheet_67
+  - first:
+      213: -434751050080849121
+    second: EdgyApeSpritesheet_68
+  - first:
+      213: -6739076590729073532
+    second: EdgyApeSpritesheet_69
+  - first:
+      213: 3538026390017683059
+    second: EdgyApeSpritesheet_70
+  - first:
+      213: -7525557183618856888
+    second: EdgyApeSpritesheet_71
+  - first:
+      213: -3065731264516824615
+    second: EdgyApeSpritesheet_72
+  - first:
+      213: 8097123338338488603
+    second: EdgyApeSpritesheet_73
+  - first:
+      213: -5818450145322530023
+    second: EdgyApeSpritesheet_74
+  - first:
+      213: 43823043766582271
+    second: EdgyApeSpritesheet_75
+  - first:
+      213: -2521139214734701361
+    second: EdgyApeSpritesheet_76
+  - first:
+      213: -2840348661240870100
+    second: EdgyApeSpritesheet_77
+  - first:
+      213: 5401771357949022670
+    second: EdgyApeSpritesheet_78
+  - first:
+      213: 2326403513787505141
+    second: EdgyApeSpritesheet_79
+  - first:
+      213: -4071323047753862359
+    second: EdgyApeSpritesheet_80
+  - first:
+      213: -4499939467507255424
+    second: EdgyApeSpritesheet_81
+  - first:
+      213: 8994024297200221467
+    second: EdgyApeSpritesheet_82
+  - first:
+      213: 6735848630891106664
+    second: EdgyApeSpritesheet_83
+  - first:
+      213: 3042556728219895561
+    second: EdgyApeSpritesheet_84
+  - first:
+      213: -3442069091279464964
+    second: EdgyApeSpritesheet_85
+  - first:
+      213: 5492996099081253052
+    second: EdgyApeSpritesheet_86
+  - first:
+      213: -6003757172429293092
+    second: EdgyApeSpritesheet_87
+  - first:
+      213: -6367831219597177836
+    second: EdgyApeSpritesheet_88
+  - first:
+      213: -7240987631927540794
+    second: EdgyApeSpritesheet_89
+  - first:
+      213: 6934401147929112629
+    second: EdgyApeSpritesheet_90
+  - first:
+      213: -6326866886609374419
+    second: EdgyApeSpritesheet_91
+  - first:
+      213: -2196481303410494265
+    second: EdgyApeSpritesheet_92
+  - first:
+      213: -4992902502497110244
+    second: EdgyApeSpritesheet_93
+  - first:
+      213: -3818780010428406456
+    second: EdgyApeSpritesheet_94
+  - first:
+      213: 9041889000189616695
+    second: EdgyApeSpritesheet_95
+  - first:
+      213: -6036862301046194440
+    second: EdgyApeSpritesheet_96
+  - first:
+      213: 5153684448603940186
+    second: EdgyApeSpritesheet_97
+  - first:
+      213: -7273217837161773011
+    second: EdgyApeSpritesheet_98
+  - first:
+      213: -6585988643094173996
+    second: EdgyApeSpritesheet_99
+  - first:
+      213: 6765933698754197941
+    second: EdgyApeSpritesheet_100
+  - first:
+      213: -3345854596771344496
+    second: EdgyApeSpritesheet_101
+  - first:
+      213: -8687749069150447851
+    second: EdgyApeSpritesheet_102
+  - first:
+      213: 7529541533298838167
+    second: EdgyApeSpritesheet_103
+  - first:
+      213: -3871975719886697977
+    second: EdgyApeSpritesheet_104
+  - first:
+      213: 5008924859486617418
+    second: EdgyApeSpritesheet_105
+  - first:
+      213: 5610778909996065583
+    second: EdgyApeSpritesheet_106
+  - first:
+      213: -7440945917700927874
+    second: EdgyApeSpritesheet_107
+  - first:
+      213: 5393210781342901185
+    second: EdgyApeSpritesheet_108
+  - first:
+      213: 8222953131176839876
+    second: EdgyApeSpritesheet_109
+  - first:
+      213: 2944826318636938271
+    second: EdgyApeSpritesheet_110
+  - first:
+      213: 1997084517823156795
+    second: EdgyApeSpritesheet_111
+  - first:
+      213: 8553430755569866631
+    second: EdgyApeSpritesheet_112
+  - first:
+      213: 549597208795370402
+    second: EdgyApeSpritesheet_113
+  - first:
+      213: 3053195916192462286
+    second: EdgyApeSpritesheet_114
+  - first:
+      213: -802783680536894319
+    second: EdgyApeSpritesheet_115
+  - first:
+      213: -879679501760658171
+    second: EdgyApeSpritesheet_116
+  - first:
+      213: -8096764332596300342
+    second: EdgyApeSpritesheet_117
+  - first:
+      213: -3565777734323101740
+    second: EdgyApeSpritesheet_118
+  - first:
+      213: 225563018417827304
+    second: EdgyApeSpritesheet_119
+  - first:
+      213: -746055945573062149
+    second: EdgyApeSpritesheet_120
+  - first:
+      213: 7429263638724038108
+    second: EdgyApeSpritesheet_121
+  - first:
+      213: 2570421309658610294
+    second: EdgyApeSpritesheet_122
+  - first:
+      213: 638274829803807676
+    second: EdgyApeSpritesheet_123
+  - first:
+      213: 3361910176822489238
+    second: EdgyApeSpritesheet_124
+  - first:
+      213: -4583263686180890433
+    second: EdgyApeSpritesheet_125
+  - first:
+      213: -347413299890481587
+    second: EdgyApeSpritesheet_126
+  - first:
+      213: 8061370198248858551
+    second: EdgyApeSpritesheet_127
+  - first:
+      213: 6258143978707036037
+    second: EdgyApeSpritesheet_128
+  - first:
+      213: 7412861537968680729
+    second: EdgyApeSpritesheet_129
+  - first:
+      213: 8264097773830372445
+    second: EdgyApeSpritesheet_130
+  - first:
+      213: 3832396624787143444
+    second: EdgyApeSpritesheet_131
+  - first:
+      213: 589450830221487493
+    second: EdgyApeSpritesheet_132
+  - first:
+      213: 883683452381112080
+    second: EdgyApeSpritesheet_133
+  - first:
+      213: 7460317776622347541
+    second: EdgyApeSpritesheet_134
+  - first:
+      213: -4118995940155559641
+    second: EdgyApeSpritesheet_135
+  - first:
+      213: -5053990073407137906
+    second: EdgyApeSpritesheet_136
+  - first:
+      213: 1234071772628776995
+    second: EdgyApeSpritesheet_137
+  - first:
+      213: -132684739224749114
+    second: EdgyApeSpritesheet_138
+  - first:
+      213: 7094317455705497369
+    second: EdgyApeSpritesheet_139
+  - first:
+      213: -7977516962505923437
+    second: EdgyApeSpritesheet_140
+  - first:
+      213: 6987950506766250292
+    second: EdgyApeSpritesheet_141
+  - first:
+      213: -5331633075135179932
+    second: EdgyApeSpritesheet_142
+  - first:
+      213: 1483823929067220134
+    second: EdgyApeSpritesheet_143
+  - first:
+      213: -1213065208389870343
+    second: EdgyApeSpritesheet_144
+  - first:
+      213: -4489626571572908126
+    second: EdgyApeSpritesheet_145
+  - first:
+      213: 4896539949804253192
+    second: EdgyApeSpritesheet_146
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1013
+        width: 659
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6583af82e6b84b0800000000000000
+      internalID: -5437131002843998474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 968
+        width: 452
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931d52b29eb7075b0800000000000000
+      internalID: -5372658114071506631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 802
+        width: 733
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7405f9a5abb61bed0800000000000000
+      internalID: -2400018678283284409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 871
+        width: 400
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa8f9d737696f2e0800000000000000
+      internalID: -2092319554094003471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 871
+        width: 329
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacfd29ad285ff1e0800000000000000
+      internalID: -2161912342979412818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 871
+        width: 67
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1026afd0ca2b85c70800000000000000
+      internalID: 8960107910692233729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 871
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b529b6cf6d69730800000000000000
+      internalID: 4005625298217491212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 871
+        width: 63
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac94153ed5979850800000000000000
+      internalID: 6383735778426789027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 788
+        width: 261
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b951aac3f98a75820800000000000000
+      internalID: 2906977486361990555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 788
+        width: 259
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dec574ff7312aca0800000000000000
+      internalID: -6007217512675684652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 700
+        width: 261
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d0a06ba0d8f4e00800000000000000
+      internalID: 1031197916834434305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 700
+        width: 259
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a59dc6a46f8f5120800000000000000
+      internalID: 2404798388497126822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 342
+        width: 1503
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4049ee30e388740800000000000000
+      internalID: 5154437960134034640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 614
+        width: 261
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b08dc35daaa1200800000000000000
+      internalID: 151621370295880572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 614
+        width: 259
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba881c0e31bdaa140800000000000000
+      internalID: 4731835236927768747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 523
+        width: 261
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7275754be181af240800000000000000
+      internalID: 4826196470834616103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 523
+        width: 259
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af952ff39c8adb1d0800000000000000
+      internalID: -3333322566869558790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EdgyApeSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 57
+        width: 1700
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae7a19af2e7dbd80800000000000000
+      internalID: -8233285800597750103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 21d8883a094975742af826abe56ff450
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

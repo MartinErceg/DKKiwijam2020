@@ -25,10 +25,4 @@ public class TerrainManager : MonoBehaviour
             TerrainPool[i] = Instantiate(terrain, calculatedPos, gm.b_spawner.transform.rotation);
         }
     }
-
-    void Update()
-    {
-        
-    }
-
 }
